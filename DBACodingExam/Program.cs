@@ -5,9 +5,9 @@ using System.Globalization;
 Console.WriteLine("Jesmael Atienza - Coding Exam\n");
 
 Console.WriteLine("\nItem 1:\n");
-int [] array = new int [] { 5, 1, 4, 6, 7, 3, 5, 7, 3 };
-
 Console.WriteLine("[ 5, 1, 4, 6, 7, 3, 5, 7, 3 ]\r\n\nDuplicated elements from the array:");
+
+int [] array = new int [] { 5, 1, 4, 6, 7, 3, 5, 7, 3 };
 
 for (int x = 0; x < array.Length; x++) {
     for(int y = x + 1; y < array.Length;y++)
